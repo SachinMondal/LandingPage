@@ -59,19 +59,21 @@ const HomePage = ({ loggedIn }) => {
                             <button className="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Job</button>
                         </li>
                     </ul>
-                    <div className='d-lg-none'>
-                        <h3 className='fw-bolder'>All Posts(34)</h3>
-                    </div>
-                    <div className="dropdown d-lg-none">
-                        <button className="btn btn-secondary me-3 dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                            Filter
-                        </button>
-                        <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                            <li><a className="dropdown-item" href="/">Article </a></li>
-                            <li><a className="dropdown-item" href="/">Event</a></li>
-                            <li><a className="dropdown-item" href="/">Education </a></li>
-                            <li><a className="dropdown-item" href="/">Job </a></li>
-                        </ul>
+                    <div className='d-flex justify-content-between w-100' style={{ width: '100%' }} >
+                        <div className='d-lg-none' >
+                            <h6 className='fw-bolder'>All Posts(34)</h6>
+                        </div>
+                        <div className="dropdown d-lg-none">
+                            <button className="btn btn-secondary me-3 dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Filter
+                            </button>
+                            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a className="dropdown-item" href="/">Article </a></li>
+                                <li><a className="dropdown-item" href="/">Event</a></li>
+                                <li><a className="dropdown-item" href="/">Education </a></li>
+                                <li><a className="dropdown-item" href="/">Job </a></li>
+                            </ul>
+                        </div>
                     </div>
 
                 </div>

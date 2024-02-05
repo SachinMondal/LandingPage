@@ -85,7 +85,7 @@ const Navbar = ({ loggedIn, onSignInClick }) => {
                                         className="btn"
                                         data-bs-toggle="modal"
                                         data-bs-target="#exampleModalToggle"
-                                        role="button"
+
                                     >
                                         Create Account!
                                     </button>

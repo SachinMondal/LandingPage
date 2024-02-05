@@ -37,7 +37,7 @@ const SignIn = ({ loggedIn, onSignInClick }) => {
                                     <h3 className='align-baseline'>Create Account</h3>
                                 </div>
                                 <div>
-                                    <p>Already have an account?<span style={{ color: '#2F6CE5' }}><a className="btn fw-bolder" style={{ color: '#2F6CE5' }} data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Sign In</a></span></p>
+                                    <p>Already have an account?<span style={{ color: '#2F6CE5' }}><a href="/" className="btn fw-bolder" style={{ color: '#2F6CE5' }} data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Sign In</a></span></p>
                                 </div>
                             </div>
                             <div className='d-flex'>
@@ -93,7 +93,7 @@ const SignIn = ({ loggedIn, onSignInClick }) => {
                                 <h3 className='align-baseline'>Sign In</h3>
                             </div>
                             <div>
-                                <p>Don't have an Account yet?<span style={{ color: '#2F6CE5' }}><a className="btn fw-bolder" style={{ color: '#2F6CE5' }} data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Create new for free</a></span></p>
+                                <p>Don't have an Account yet?<span style={{ color: '#2F6CE5' }}><a href="/" className="btn fw-bolder" style={{ color: '#2F6CE5' }} data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Create new for free</a></span></p>
                             </div>
                         </div>
                         <div className='d-flex'>
